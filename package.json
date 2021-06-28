@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "dev": "node src/app -e js,hbs"
+    "start": "node src/app -e js,hbs"
   },
   "keywords": [],
   "author": "",
