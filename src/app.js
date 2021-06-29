@@ -23,7 +23,7 @@ app.use(express.static(publicDirectoryPath));
 app.get("", (req, res) => {
     res.render("index", {
         title: "Weather",
-        name: "Elijah Olusola",
+        name: "Eliog Olusola",
     });
 });
 
@@ -36,7 +36,7 @@ app.get("/about", (req, res) => {
 
 app.get("/help", (req, res) => {
     res.render("help", {
-        name: "ELiog Olusola",
+        name: "Eliog Olusola",
         title: "Get Help",
         message: "You can always get help here.",
     });
